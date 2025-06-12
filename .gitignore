@@ -1,0 +1,17 @@
+# Ignore node_modules folders
+**/node_modules/
+
+# Environment files
+**/.env
+
+# Log files
+*.log
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
