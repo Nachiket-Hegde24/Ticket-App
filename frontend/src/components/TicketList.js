@@ -48,7 +48,7 @@ function TicketList() {
           {tickets.map(ticket=>(
              <div key={ticket._id} className="ticket-card"> 
                <h3>{ticket.title}</h3>
-               <p><strong>Description:</strong>{ticket.desciption}</p>
+               <p><strong>Description:</strong>{ticket.description}</p>
                <p><strong>priority:</strong>{ticket.priority}</p>
                <p><strong>Status:</strong>{ticket.status}</p>
                <p><strong>created By:</strong>{ticket.createdBy}</p>
