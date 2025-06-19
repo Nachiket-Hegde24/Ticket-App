@@ -1,10 +1,18 @@
+.heading{
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
 .ticket-form {
   width: 350px;
-  margin: 20px auto;
+  margin: auto;
   padding: 16px;
   border: 2px solid #e0e0e0;
   border-radius: 12px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-color: rgb(49, 48, 46);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;

@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use('/api/tickets',ticketRoutes)
 
-mongoose.connect('add your connecttion string')
+mongoose.connect('mongodb://localhost:27017/ticketdb')
 .then(()=>{
     console.log('MongoDB connected')
     app.listen(PORT,()=>

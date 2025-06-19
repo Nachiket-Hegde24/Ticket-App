@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./TicketList.css";
 
 function TicketList() {
   const [tickets, setTickets] = useState([]);
@@ -43,7 +44,7 @@ function TicketList() {
 
    return(
      <div className="ticket-List">
-          <h2>Ticket</h2>
+          <h2>Ticket List</h2>
           {tickets.length === 0 && <p>No ticket found</p>}
           {tickets.map(ticket=>(
              <div key={ticket._id} className="ticket-card"> 

@@ -37,6 +37,7 @@ function TicketForm(){
       
     return(
         <form className="ticket-form" onSubmit={hasFormSubmit}>
+            <div className='heading'>Raise Issues</div>
             <input name="title" placeholder="Title" value={form.title} onChange={handleChange} required />
             <textarea name="description" placeholder="Description" value={form.description} onChange={handleChange} required />
             <select name="priority" value={form.priority} onChange={handleChange}>
